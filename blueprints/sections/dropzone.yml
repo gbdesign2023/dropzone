@@ -1,0 +1,14 @@
+label:
+  en: File uploader
+  de: Datei-Uploader
+empty: Drag & Drop
+text: >
+  <span class="upload-label">
+    <svg aria-hidden="true" class="k-icon">
+      <use xlink:href="#icon-download"></use>
+    </svg>Drag & Drop</span>
+type: files
+template: image
+image: false
+limit: 1
+sortable: false

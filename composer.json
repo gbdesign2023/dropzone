@@ -1,0 +1,36 @@
+{
+  "name": "gbd/dropzone",
+  "description": "Drag & Drop Datei-Upload-Section für das Kirby Panel mit eigener Styling-Logik.",
+  "type": "kirby-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gerrit Bender DESIGN",
+      "email": "kirby@gbender.de",
+      "homepage": "https://gbd.design"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/gbdesign2023/dropzone/issues",
+    "source": "https://github.com/gbdesign2023/dropzone"
+  },
+  "require": {
+    "getkirby/composer-installer": "^1.2"
+  },
+  "require-dev": {
+    "getkirby/cms": "^4.0.0 || ^5.0.0"
+  },
+  "autoload": {},
+  "extra": {
+    "installer-name": "gbd-dropzone",
+    "kirby-cms-path": false
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  }
+}
+
